@@ -1,0 +1,40 @@
+body{ background-color: BlanchedAlmond;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 100px auto;
+ 
+  
+}
+
+#customers td, #customers th {
+  border: 5px solid LightSalmon;
+  padding: 5px;
+
+  
+}
+
+#customers tr:nth-child(even){background-color:tomato;}
+
+#customers tr:hover {background-color:coral;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: maroon;
+  color: white;
+}
+
+p{
+  font-family: verdana;
+  font-size: 50px;
+  color:BlueViolet;
+  text-align:center;
+}
+td{
+    text-align: center;
+}
