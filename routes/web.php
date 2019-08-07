@@ -11,8 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
 
 Route::get('tabela', 'MusicasController@index')->name('index');
+Route::get('/cadastrar', 'MusicasController@create')->name('cadastrar');
+Route::post('/salvar', 'MusicasController@store')->name('salvar');
